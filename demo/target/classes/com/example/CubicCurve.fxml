@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+
+<AnchorPane id="AnchorPane" prefHeight="536.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.example.CubicCurveController">
+   <children>
+      <Button fx:id="back4" layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back4" text="&lt;--" />
+      <CubicCurve fx:id="Cubic" controlX1="-50.0" controlX2="50.0" controlY1="-93.0" controlY2="100.0" endX="236.0" layoutX="377.0" layoutY="295.0" startX="-150.0" stroke="BLACK" />
+      <TextField fx:id="T1" layoutX="57.0" layoutY="14.0" promptText="Cubic.setStartX" text="-150" />
+      <TextField fx:id="T2" layoutX="57.0" layoutY="39.0" promptText="Cubic.setStartY" text="0" />
+      <TextField fx:id="T4" layoutX="218.0" layoutY="39.0" promptText="Cubic.setEndY" text="0" />
+      <TextField fx:id="T5" layoutX="378.0" layoutY="14.0" promptText="Cubic.setControlX1" text="-50" />
+      <TextField fx:id="T3" layoutX="218.0" layoutY="14.0" promptText=" Cubic.setEndX" text="150" />
+      <TextField fx:id="T6" layoutX="378.0" layoutY="39.0" promptText="Cubic.setControlY1" text="-93" />
+      <TextField fx:id="T7" layoutX="540.0" layoutY="14.0" promptText="Cubic.setControlX2" text="50" />
+      <TextField fx:id="T8" layoutX="540.0" layoutY="39.0" promptText="Cubic.setControlY2" text="100" />
+      <Button fx:id="ENTER" layoutX="717.0" layoutY="27.0" mnemonicParsing="false" onAction="#Cubic2" text="ENTER" />
+   </children>
+</AnchorPane>
